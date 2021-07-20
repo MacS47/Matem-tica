@@ -25,7 +25,7 @@ def clear():
 
 def pitagoras(h = 0, a = 0, b = 0):
     
-    # Essa primeira verificação verifica se existem valores, negativos ou positivos para
+    # Essa primeira verificação identifica se existem valores, negativos ou positivos para
     # ao menos duas variáveis
 
     if (h != 0 and a != 0 ) or (h != 0 and b != 0) or (a != 0 and b != 0):
