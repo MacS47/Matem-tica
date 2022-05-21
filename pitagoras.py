@@ -54,8 +54,5 @@ def pitagoras(h = 0, a = 0, b = 0):
 # clear() para limpar o console em seguida pitagoras(a = 4, h = 9) que irá determinar o valor de b
 
 clear()  
-variable = pitagoras(a = 4, h = 9)
-print(f"O valor desconhecido no seu triângulo retângulo é {variable[0]:.2f} \n{variable[1]}")
-
-variable = pitagoras(a = 4, b = 4)
+variable = pitagoras(a = 4, h = 9) 
 print(f"O valor desconhecido no seu triângulo retângulo é {variable[0]:.2f} \n{variable[1]}")
